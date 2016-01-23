@@ -14,7 +14,7 @@ function is_image($path)
 }
 
 //Recurse through all the folders. (excluding certain folders)
-$directory = $main_folder;
+$directory = $_GET["path"];
 $iterator = new RecursiveDirectoryIterator($directory);
 $iterator->setFlags(RecursiveDirectoryIterator::SKIP_DOTS);
 
@@ -37,7 +37,8 @@ class MyRecursiveFilterIterator extends RecursiveFilterIterator {
 
 	//folders to ignore/exclude
 	public static $FILTERS = array(
-		'resources'
+		'resources',
+		'.git'
 		);
 
 	public function accept() {

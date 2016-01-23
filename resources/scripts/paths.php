@@ -9,8 +9,14 @@ $img_caching_width = '300';
 //folders to ignore
 //'resources';
 
+
 //other resources
-$functions_todo = 'resources/scripts/functions.php';
+$function_showFolders = 'resources/scripts/function_showFolders.php';
+$function_showImages = 'resources/scripts/function_showImages.php';
+
+
+$folder_image = 'resources/imgs/folder_red.png';
+
 
 $resources_css ='resources/css/style.css';
 $resources_js ='resources/js/index.js';

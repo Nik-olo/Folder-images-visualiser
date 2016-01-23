@@ -13,7 +13,7 @@
 	<div class="grid">
 		<div class="grid-sizer"></div>
 
-		<?php include $function_showFolders; ?>
+		<?php include $function_showImages; ?>
 
 	</div>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
